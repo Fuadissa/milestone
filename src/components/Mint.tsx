@@ -1,11 +1,9 @@
-import { Navbar } from "@/components/Navbar";
 import Image from "next/image";
+import React from "react";
 
-export default function Home() {
+export const Mint = () => {
   return (
-    <div className="">
-      <Navbar />
-
+    <>
       <div className="lg:w-[60%] lg:h-[80vh] md:w-[80%] md:h-[60vh] w-[80%] h-[57vh] bg-white bg-opacity-[0.05] backdrop-filter  rounded-3xl shadow-lg flex justify-center items-center place-self-center md:mt-20 lg:mt-0 mt-[25%]">
         <div className="flex flex-col md:flex-row justify-between items-center w-[100%] lg:px-12 md:px-8 gap-8">
           <div className="relative lg:w-[18rem] lg:h-[15rem] md:w-[16rem] md:h-[15rem] w-[100%] h-[14rem]">
@@ -42,6 +40,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
-}
+};
