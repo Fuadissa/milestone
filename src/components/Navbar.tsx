@@ -11,7 +11,7 @@ export const Navbar = () => {
         </span>
       </div>
       <div>
-        <button className="lg:py-3 py-1 text-black bg-white lg:rounded-3xl lg:font-medium lg:px-10 px-6 text-sm rounded-xl">
+        <button className="lg:py-3 py-2 text-black bg-white lg:rounded-3xl lg:font-medium lg:px-10 px-6 text-sm rounded-xl">
           Connect Wallet
         </button>
       </div>
